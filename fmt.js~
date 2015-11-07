@@ -1,0 +1,13 @@
+(function(){
+var c=require("child_process");
+
+    exports.startGoFmt=function(path) {
+
+
+//        var currentDocument = DocumentManager.getCurrentDocument();
+//currentDocument.file._path
+        c.execSync("gofmt -w " + path);
+
+    }
+
+}())

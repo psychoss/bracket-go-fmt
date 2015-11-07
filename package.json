@@ -1,0 +1,7 @@
+{
+    "name": "brackets-gofmt",
+    "version": "1.0.9",
+    "engines": {
+        "brackets": ">=0.31.0"
+    }
+}
