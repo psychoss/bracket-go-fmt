@@ -111,7 +111,7 @@ define(function(require, exports, module) {
                 var str = '```\n' + getSelectedText() + '\n```'
                 replaceActiveSelection(str)
             })
-            $('#md-hash`).click(function() {
+            $('#md-hash').click(function() {
                 var str = '#' + getSelectedText();
                 replaceActiveSelection(str)
             })
